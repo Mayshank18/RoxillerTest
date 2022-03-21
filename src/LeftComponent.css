@@ -1,0 +1,53 @@
+.ScreenItem{
+    display:grid;
+    grid-template-columns: 60% 40%;
+}
+
+table{
+    border: 1px solid black;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding:8px;
+}
+.RightComponent{
+    text-align: center;
+}
+
+span{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.RightComponent span p{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.boxField{
+    border: 1px solid black;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SearchField{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.SearchField h3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.SearchMe{
+    border: 1px solid black;
+}
+.LeftComponent{
+    padding-left: 20px;
+    padding-right: 20px;
+}

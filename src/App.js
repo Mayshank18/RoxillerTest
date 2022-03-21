@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import LeftComponent from './LeftComponent.js'
+
 
 function App() {
   return (
-    
+    <div className="screen">
+      <LeftComponent/>
+    </div>
   );
 }
 
